@@ -98,7 +98,7 @@ public class SolrUtil {
      * This method is used for deleting the documents
      * @param query determines the query for deleting the documents
      * @param collection determines the collection
-     * @return  1 if deleted successfully
+     * @return  true if deleted successfully
      * @throws Exception when issue with deleting documents
      */
     public boolean deleteSolrDocuments(String query,String collection) throws Exception {
