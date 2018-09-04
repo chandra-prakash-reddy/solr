@@ -1,7 +1,6 @@
 
 
 
-import com.modak.fireshots.logging.Loggable;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.solr.client.solrj.SolrClient;
@@ -10,7 +9,6 @@ import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrInputDocument;
 import org.slf4j.Logger;
-import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.util.*;
 
