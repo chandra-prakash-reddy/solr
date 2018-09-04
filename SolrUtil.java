@@ -101,7 +101,7 @@ public class SolrUtil {
      * @return  1 if deleted successfully
      * @throws Exception when issue with deleting documents
      */
-    public int deleteSolrDocuments(String query,String collection) throws Exception {
+    public boolean deleteSolrDocuments(String query,String collection) throws Exception {
         String hostUrl=solrHost+"/"+collection;
         SolrClient solrClient = null;
         try {
@@ -110,14 +110,14 @@ public class SolrUtil {
             solrClient.deleteByQuery(query);
             solrClient.commit();
             LOGGER.info("Documents deleted successfully");
-            return 1;
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
             LOGGER.info("Failed to delete documents");
         } finally {
            close(solrClient);
         }
-        return -1;
+        return false;
 
     }
 
