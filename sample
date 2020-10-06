@@ -1,15 +1,15 @@
-TopicName	                                                    GroupName
-nabu.bots.bot_factory_<workflow_engine_id>_<bot_factory_id>	    bot_factory_group_<workflow_engine_id>_<bot_factory_id>
-nabu.bots.<workflow_engine_id>_authtoken	                    nabu_<workflow_engine_id>_authtoken_group
-nabu.bots.<workflow_engine_id>_flowcontroller	                nabu_<workflow_engine_id>_flowcontroller_group
-nabu.bots.<workflow_engine_id>_jdbc	                            nabu_<workflow_engine_id>_jdbc_group
-nabu.bots.workflow_engine_id>_script	                        nabu_<workflow_engine_id>_script_group
-nabu.bots.<workflow_engine_id>_streamsets	                    nabu_<workflow_engine_id>_streamsets_group
-nabu.bots.<workflow_engine_id>_taskmonitor	                    nabu_<workflow_engine_id>_taskmonitor_group
-nabu.bots.<workflow_engine_id>_spark_script	                    nabu_<workflow_engine_id>_spark_script_group
-nabu.bots.<workflow_engine_id>_hive_<dataplace_id>	            nabu_<workflow_engine_id>_hive_group
-nabu.bots.<workflow_engine_id>_s3stream	                        nabu_<workflow_engine_id>_s3stream_group
-nabu.bots.<workflow_engine_id>_verification_<dataplace_id>	    nabu_<workflow_engine_id>_verification_group
-nabu.bots.<workflow_engine_id>_hdfs_<dataplace_id>	            nabu_<workflow_engine_id>_hdfs_group
-nabu.bots.<workflow_engine_id>_email	                        nabu_<workflow_engine_id>_email_group
-nabu.bots.<workflow_engine_id>_ondemand	                        nabu_<workflow_engine_id>_ondemand_group
+TopicName(GroupName)
+1.nabu.bots.bot_factory_<workflow_engine_id>_<bot_factory_id>(bot_factory_group_<workflow_engine_id>_<bot_factory_id>)
+2.nabu.bots.<workflow_engine_id>_authtoken(nabu_<workflow_engine_id>_authtoken_group)
+3.nabu.bots.<workflow_engine_id>_flowcontroller(nabu_<workflow_engine_id>_flowcontroller_group)
+4.nabu.bots.<workflow_engine_id>_jdb(nabu_<workflow_engine_id>_jdbc_group)
+5.nabu.bots.workflow_engine_id>_script(nabu_<workflow_engine_id>_script_group)
+6.nabu.bots.<workflow_engine_id>_streamsets(nabu_<workflow_engine_id>_streamsets_group)
+8.nabu.bots.<workflow_engine_id>_taskmonitor(nabu_<workflow_engine_id>_taskmonitor_group)
+9.nabu.bots.<workflow_engine_id>_spark_script(nabu_<workflow_engine_id>_spark_script_group)
+10.nabu.bots.<workflow_engine_id>_hive_<dataplace_id>(nabu_<workflow_engine_id>_hive_group)
+11.nabu.bots.<workflow_engine_id>_s3stream(nabu_<workflow_engine_id>_s3stream_group)
+12.nabu.bots.<workflow_engine_id>_verification_<dataplace_id>(nabu_<workflow_engine_id>_verification_group)
+13.nabu.bots.<workflow_engine_id>_hdfs_<dataplace_id>(nabu_<workflow_engine_id>_hdfs_group)
+14.nabu.bots.<workflow_engine_id>_email(nabu_<workflow_engine_id>_email_group)
+15.nabu.bots.<workflow_engine_id>_ondemand(nabu_<workflow_engine_id>_ondemand_group)
