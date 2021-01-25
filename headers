@@ -1,0 +1,9 @@
+        response.setHeader("X-Frame-Options", "SAMEORIGIN");
+        response.setHeader("X-XSS-Protection", "1; mode=block");
+        response.setHeader("X-Content-Type-Options", "nosniff");
+        response.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+        response.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:;");
+        response.setHeader("Content-Security-Policy", "default-src 'self'; img-src 'self' data: https:;");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+        response.setHeader("Access-Control-Allow-Origin", requestString);
+        response.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Origin,Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers,x-frame-options,X-Content-Type-Options,Authorization,X-XSS-Protection,User-Agent,cache-control,Accept-Encoding,Accept-language,connection,content-length,host");
