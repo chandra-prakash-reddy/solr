@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 
 
-public class JWTHandler implements FireshotsAuthentication {
+public class JWTHandler  {
 
     private static final String ALGORITHM_TYPE = "RSA";
 
