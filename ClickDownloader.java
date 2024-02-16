@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class ClickDownloader {
     public static void main(String[] args) {
         // Set the path to your ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "/Users/kistc/chrome/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/chrome/chromedriver");
 
         // Create a new instance of the ChromeDriver
         WebDriver driver = new ChromeDriver();
